@@ -1,0 +1,45 @@
+p {
+    margin: 10px auto 10px;
+}
+
+input {
+    border-radius: 8px;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 430px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .form {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .suma {
+        margin-top: 20px;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .b-13 {
+        width: 100px;
+        height: 30px;
+        border: 1px green solid;
+        border-radius: 10px;
+        background: pink;
+        color: darkgreen;
+    }
+}
